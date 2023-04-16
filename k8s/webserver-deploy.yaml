@@ -20,8 +20,8 @@ spec:
         app: webserver
     spec:
       containers:
-      - image: clarusway/webserver13
-        name: webserver13
+      - image: devkurtops/webserver
+        name: webserver
         ports:
         - containerPort: 80
         envFrom:
